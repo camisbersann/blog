@@ -276,6 +276,9 @@ h1.heading {
   h1.heading {
     font-size: 3.55em;
   }
+  #banners{
+    
+  }
 }
 @media (min-width: 760px) {
   h1.heading {
