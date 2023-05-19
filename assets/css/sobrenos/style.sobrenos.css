@@ -45,8 +45,10 @@ p {
     margin-top: 100px;
 }
 
-.quemsomos {
-    text-align: center;
+#quemsomos {
+    margin-left: 40%;
+    font-size: 35px;
+    margin-top: 1%;
 }
 
 html {
