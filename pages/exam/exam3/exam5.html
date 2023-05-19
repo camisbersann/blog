@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ember Diamond</title>
+    <link rel="icon" type="image/x-icon" href="../../../assets/images/logoblog.png">
     <link rel="stylesheet" href="../../../assets/css/categories/exam/style.exam.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
@@ -15,7 +16,7 @@
 
 <body>
     <!--header-->
-    <iframe src="../../../layouts/header.html" frameborder="0" scrolling="no"></iframe>
+    <iframe id="header_" src="../../../layouts/header.html" frameborder="0" scrolling="no"></iframe>
     <!--post-->
     <div id="article_aside">
         <main>
@@ -39,7 +40,7 @@
                 <article>
                     <div id="top">
 
-                        <img src="../../../assets/images/vestibular_4" alt="vestibular">
+                        <img id="img2_vestibular" src="../../../assets/images/vestibular_4.jpg" alt="vestibular">
                         <p class="text_maincontent">O Exame Nacional do Ensino Médio (ENEM) é uma das principais provas
                             do país. Realizado anualmente pelo Instituto Nacional de Estudos e Pesquisas Educacionais
                             Anísio Teixeira (INEP), o exame tem como objetivo avaliar o conhecimento dos estudantes que
@@ -123,30 +124,37 @@
         </aside>
 
     </div>
-    <article id="break">
-        <article>
-            <div class="articles_blog">
+    <div id="break"></div>
+    <article>
+        <div class="articles_blog">
+
+            <a href="../exam1/exam.html">
                 <section class="cards">
-                    <a href="../exam1/exam.html">
-                        <img class="card_img" src="../../../../assets/images/vestibular_2.jpeg">
-                        <p class="card_texts">Sobre redação</p>
-                    </a>
+
+                    <img class="card_img" src="../../../assets/images/vestibular_2.jpeg">
+                    <p class="card_texts">Sobre redação</p>
+
                 </section>
+            </a>
+            <a href="../exam2/exam3.html">
                 <section class="cards">
-                    <a href="../exam2/exam3.html">
-                        <img class="card_img" src="../../../../assets/images/vestibular_4.jpg">
-                        <p class="card_texts">Dicas para a redação do ENEM</p>
-                    </a>
+
+                    <img class="card_img" src="../../../assets/images/vestibular_4.jpg">
+                    <p class="card_texts">Dicas para a redação do ENEM</p>
+
                 </section>
-                <a href="../exam4/exam7.html">
-                    <section class="cards">
-                        <img class="card_img" src="../../../../assets/images/vestibular_2.jpg">
-                        <p class="card_texts">Redação ENEM 2023</p>
-                    </section>
-                </a>
-            </div>
-        </article>
-        </article>
+            </a>
+
+            <a href="../exam4/exam7.html">
+                <section class="cards">
+                    <img class="card_img" src="../../../assets/images/vestibular_2.jpg">
+                    <p class="card_texts">Redação ENEM 2023</p>
+                </section>
+            </a>
+
+
+        </div>
+    </article>
 
     <!--Footer-->
     <footer>
