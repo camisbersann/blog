@@ -8,6 +8,8 @@ body {
 /* Header por iframes */
 #header_ {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* Div dos botões */
@@ -41,7 +43,7 @@ button:active {
 
 
 #top {
-    display: flex;
+
     align-items: center;
 }
 
@@ -321,5 +323,10 @@ a {
 #footer_ {
     width: 100%;
     height: 40vh;
+}
+
+#img2_vestibular {
+    width: 100%;
+    height: 5%;
 }
 
