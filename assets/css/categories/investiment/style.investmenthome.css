@@ -34,6 +34,9 @@ main h1{
     margin-left: 7.4vh;
     font-family: 'Montserrat', sans-serif;
 }
+h2{
+  text-align: center;
+}
 /*Estilização das tags de texto do site*/
 h4, h6, a{
     font-family: 'Montserrat', sans-serif;
@@ -55,6 +58,8 @@ main h1{
 .blue{
     color: #579BB1;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-left: 7px;
 }
 /*Cor de fundo transparente da parte superior do site*/
 #top{
@@ -82,7 +87,7 @@ main h1{
 /*Cards de noticía da parte superior do site*/
 .card_top{
     margin-top: 3vh;
-    margin-left: 7.4vh;
+    margin-left: 17vh;
     margin-right: 7.4vh;
     width: 50%;
 }
@@ -113,6 +118,7 @@ main h1{
     margin: 3vh;
     margin-top: 7.4vh;
     width: 33%;
+    margin-left: 8vh;
 }
 /*Estilização da imagem dos cards do meio do site*/
 .card_middle img{
@@ -144,6 +150,7 @@ main h1{
 #ad{
     margin-top: 7.4vh;
     margin-bottom: 7.4vh;
+    margin-left: 7vh;
 }
 /*Tamanho das imagens das propagandas*/
 #ad img{
