@@ -28,11 +28,9 @@ main h1{
 }
 
 .image{
-    text-align: center;
-    border: 2px solid #579BB1;
     width: fit-content;
     height: 62vh;
-    margin-left: 275px;
+    margin-left: 22%;
 }
 
 .image img{
@@ -113,4 +111,9 @@ button{
     height: 40vh;
     margin-bottom: -2.2vh;
     margin-top: 100px;
+}
+
+#fotojulia {
+    margin-left: 5%;
+    border-radius: 6%;
 }
