@@ -1,0 +1,61 @@
+/*Importação da fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    margin: 0%;
+    background-color: #F8F4EA;
+    transition: .4s;
+}
+
+header iframe{
+    width: 100%;
+    height: 100%;
+}
+
+footer iframe{
+    width: 100%;
+    height: 43vh;
+}
+/*Estilização das tags de texto do site*/
+h1, h2, h4, a, li{
+    color: #333;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+/*Estilização de alinhamento da main*/
+main{
+    text-align: center;
+}
+/*Estilização do botão para voltar para página home*/
+.button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #579BB1;
+    color: #333;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Animação no botão para voltar para a página home*/
+.button:hover{
+    background-color: white;
+    border: 2px solid grey;
+    color: #333;
+
+}
+
+article img{
+    width: 31vh;
+    height: 31vh;
+}

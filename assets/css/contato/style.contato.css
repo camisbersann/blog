@@ -1,0 +1,127 @@
+/*Importação da fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+#header{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    background-color: #F8F4EA
+}
+.article {
+    background-color: #F8F4EA;
+    text-align: justify;
+    height: 35vh;
+    width: 50vh;
+    padding: 150px;
+    flex-direction: column;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Article com conteudo1*/
+.article1 {
+    background-color: #579BB1;
+    text-align: justify;
+    height: 55vh;
+    width: 66vh;
+    padding: 135px;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    margin-top: 0%;
+}
+/*div de organizacao*/
+div {
+    display: flex;
+}
+
+
+.label {
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+/*formulario*/
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+/*div com comteudo*/
+.div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+/*div com conteudo*/
+.div1 {
+    display: flex;
+    flex-direction: column;
+    width: 20vh;
+    font-family: 'Montserrat', sans-serif;
+    margin: 13px;
+}
+/*estilizacao do botao*/
+button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: #579BB1;
+    border: solid black;
+    border-radius: 5px;
+    width: 20vh;
+}
+/*estilizacao do comentario*/
+#comentário {
+    padding-top: 12px;
+    padding-bottom: 50px;
+    border: solid white;
+}
+/*estilizazcao do input*/
+input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 450px;
+    border: solid white;
+    font-size: 18px;
+    font-family: title;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*estilizacao do titulo*/
+h1 {
+
+    font-family: 'Montserrat', sans-serif;
+}
+/*estilizacao do paragtrafo*/
+p {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*estilizacao do link*/
+a {
+    text-decoration: none;
+}
+/*ajeitando o footer*/
+#felipe {
+  margin-top: -54px;
+  margin-bottom: -35px;
+}
+/*footer*/
+#iframe_footer {
+    margin-bottom: -5px;
+    width: 100%;
+    height: 43vh;
+}
+.img1 {
+    width: 50px;
+    height: 50px;
+}

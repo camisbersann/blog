@@ -1,0 +1,121 @@
+/*Importação da fonte de título*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+header iframe{
+    width: 100%;
+    height: 19.1vh;
+}
+
+footer iframe{
+    width: 100%;
+    height: 40vh;
+}
+
+.artigo {
+    background-color: #F8F4EA;
+    text-align: justify;
+    height: 52vh;
+    width: 39vh;
+    margin-top: 27px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    flex-direction: column;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.artigo1 {
+    background-color: #579BB1;
+    text-align: justify;
+    padding-top: 60px;
+    width: 70vh;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+div {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    background-color: #F8F4EA;
+}
+
+.rain1 {
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #579BB1;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border: solid black;
+    width: 20vh;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#comentario {
+    padding-top: 12px;
+    padding-bottom: 50px;
+    border: solid white;
+    border-radius: 5px;   
+}
+
+input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 70vh;
+    border: solid white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    margin-top: -32px;
+}
+
+#iframe_footer{
+    margin-bottom: -5px;
+    width: 100%;
+    height: 40vh;
+}
