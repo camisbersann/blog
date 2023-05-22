@@ -322,11 +322,96 @@ a {
     width: 100%;
     height: 40vh;
 }
-@media(max-width:768px){
+@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
 .abertura_img{
     width: auto;
-    height: auto;
-    
+    height:auto;
 }
+.main_content{
+    align-items: center;
+}
+.articles_blog{
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+    margin-left: 5%;
+
+}
+#article_aside{
+    flex-direction: column;
+}
+#top{
+    flex-direction: column;
+}
+aside{
+    width: auto;
+    height: auto;
+    display: block;
+}
+main{
+    width: auto;
+}
+.posted{
+    font-size: 200%;
+    display: block;
+}
+button{
+    width: 30%;
+    height: 5vh;
+    font-size: 170%;
+}
+.cards{
+    width: 80%;
+    font-size: 130%;
+}
+.cards_img{
+    width:90%;
+    height: auto;
+}
+.cards_text{
+    font-size: 130%;
+}
+.user{
+    font-size: 150%;
+}
+.img_coment {
+    width: 10%;
+    height: auto;
 }
 
+.posted_byU {
+    font-size: 150%;
+}
+
+.card_img {
+    width: 80%;
+    height: auto;
+}
+.img_coment{
+    width: 20%;
+    height: 30%;
+}
+.text_maincontent {
+    font-size: 160%;
+}
+#art1{
+    font-size: 180%;
+}
+.abertura_img{
+    width: 90%;
+    height: auto;
+}
+#posted_byH {
+    height: 5%;
+    padding-left: 3%;
+    width: 5%;
+}
+
+#posted_byP {
+    height: 5%;
+    width: 10%;
+}
+.stars {
+    font-size: 130%;
+}
+}
