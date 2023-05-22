@@ -84,14 +84,14 @@ main h1{
 .display{
     display: flex;
     background-color: transparent;
-    margin-left: 4.5vh;
-    margin-right: 4.5vh;
+    margin-left: 10vh;
+    margin-right: 4vh;
 }
 
 .display1 {
   display: flex;
   background-color: transparent;
-  margin-left: 12vh;
+  margin-left: 127px;
 }
 
 /*Cards de noticía da parte superior do site*/
@@ -166,6 +166,7 @@ main h1{
 #ad{
     margin-top: 7.4vh;
     margin-bottom: 7.4vh;
+    margin-left: 50px;
 }
 
 /*Tamanho das imagens das propagandas*/
