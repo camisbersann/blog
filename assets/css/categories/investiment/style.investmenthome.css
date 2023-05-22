@@ -311,14 +311,14 @@ h1.heading {
      }
      .card_top img {
       margin: 0;
-      margin-left: 10%;
+      margin-left: 50%;
       width: 100%;
      }
      .card_middle {
       margin: 0;
       margin-top: 7.4vh;
       width: 33%;
-      margin-left: 0;
+      margin-left: 20%;
   }
   #ads {
     margin-left: 0;
@@ -361,14 +361,11 @@ main h1 {
   text-align: center;
 }
 h2{
-  margin-left: 10%;
+  margin-left: 50%;
 }
 p {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  margin-left: 10%;
+  margin-left: 50%;
+  /* white-space: nowrap; */
 }
 }
