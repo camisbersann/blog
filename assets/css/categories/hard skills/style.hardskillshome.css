@@ -166,7 +166,7 @@ main h1{
 #ad{
     margin-top: 7.4vh;
     margin-bottom: 7.4vh;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 /*Tamanho das imagens das propagandas*/
@@ -242,22 +242,6 @@ h1.heading {
   font-weight: 900;
   margin: 0 0 0.5em;
   color: #505050;
-}
-@media (min-width: 450px) {
-  h1.heading {
-    font-size: 3.55em;
-  }
-}
-@media (min-width: 760px) {
-  h1.heading {
-    font-size: 3.05em;
-  }
-}
-@media (min-width: 900px) {
-  h1.heading {
-    font-size: 3.25em;
-    margin: 0 0 0.3em;
-  }
 } 
 .card {
   display: block; 
@@ -313,3 +297,11 @@ h1.heading {
     transition: 0.5s;
 }
 
+@media (min-width:400px) {
+  .display1{
+    flex-direction: column;
+  }
+  #menu{
+    width: 190%;
+  }
+}
