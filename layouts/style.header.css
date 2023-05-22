@@ -107,3 +107,9 @@
     font-family: content;
     src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
+
+@media (min-width:400px) {
+    li{
+        font-size: 25px;
+}
+}

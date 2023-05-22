@@ -303,5 +303,11 @@ h1.heading {
   }
   #menu{
     width: 190%;
+    font-size: 30px;
+  }
+  #h11{
+  margin-left: 60%;
+  text-align: center;
+
   }
 }
