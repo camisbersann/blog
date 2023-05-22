@@ -50,10 +50,6 @@ p{
     margin-left: 7.4vh;
 }
 
-main h1{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
 /*Classe para colocar cor nas tags de texto*/
 .blue{
     color: #579BB1;
@@ -64,6 +60,7 @@ main h1{
 /*Cor de fundo transparente da parte superior do site*/
 #top{
     background-color: transparent;
+   margin-left: 30%;
  }
 /*Estilização da parte do banner do site*/
 .banner{
@@ -118,11 +115,11 @@ main h1{
     margin: 3vh;
     margin-top: 7.4vh;
     width: 33%;
-    margin-left: 8vh;
+    margin-left: 0;
 }
 /*Estilização da imagem dos cards do meio do site*/
 .card_middle img{
-    width: 54vh;
+    width: 64svh;
     height: 31vh;
     border-radius: 5px;
     cursor: pointer;
@@ -192,8 +189,6 @@ main h1{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
--- 
- 
 .wrapper {
   display: table;
   height: 100%;
@@ -220,26 +215,11 @@ main h1{
 h1.heading {
   color: #fff;
   font-size: 1.15em;
-  font-weight: 900;
+  font-weight: 900px;
   margin: 0 0 0.5em;
   color: #505050;
 }
-@media (min-width: 450px) {
-  h1.heading {
-    font-size: 3.55em;
-  }
-}
-@media (min-width: 760px) {
-  h1.heading {
-    font-size: 3.05em;
-  }
-}
-@media (min-width: 900px) {
-  h1.heading {
-    font-size: 3.25em;
-    margin: 0 0 0.3em;
-  }
-} 
+
 .card {
   display: block; 
     margin-bottom: 20px;
@@ -292,4 +272,100 @@ h1.heading {
     background-color: rgba(51, 51, 51, 0.3);
     border-radius: 15px;
     transition: 0.5s;
+}
+
+@media (max-width: 900px) {
+     /* #menu{
+     width: 350%;
+     }
+     main h1 {
+     align-items: center;
+     font-size: xx-large;
+    
+     }
+     #footer_{
+      width: 250%;
+      margin-left: auto;
+     }
+     #top{
+      display:block;
+     }
+     #art1{
+      display: block;
+      margin-left: 0%;
+     
+     }
+     .imgg{
+     align-items: left;
+     width: 217px;
+     } */
+     .display {
+      margin: 0;
+      display: block;
+
+     }
+     .card_top {
+      margin: 0;
+      
+
+     }
+     .card_top img {
+      margin: 0;
+      margin-left: 50%;
+      width: 100%;
+     }
+     .card_middle {
+      margin: 0;
+      margin-top: 7.4vh;
+      width: 33%;
+      margin-left: 20%;
+  }
+  #ads {
+    margin-left: 0;
+}
+#ad {
+  margin-top: 7.4vh;
+  margin-bottom: 7.4vh;
+  margin-left: 0;
+}
+#ad img {
+  width: 0;
+  height: 20vh;
+}
+main h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0;
+  font-size: 7.4vh;
+  border-bottom: rgba(51, 51, 51, 0.7) solid 0.7vh;
+}
+.card_middle img {
+  width: 150%;
+  height: 31vh;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-left: 20%;
+}
+#top {
+  background-color: transparent;
+  margin-left: 0;
+}
+#art1{
+  margin-left: 0%;
+  align-items: stretch;
+}
+.blue {
+  color: #579BB1;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h2{
+  margin-left: 50%;
+}
+p {
+  display: block;
+  margin-left: 50%;
+  /* white-space: nowrap; */
+}
 }
