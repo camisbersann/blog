@@ -282,9 +282,12 @@ h1.heading {
 @media (min-width: 400px) {
      #menu{
      width: 190%;
-     font-size: 40%;
      }
      h1{
-      justify-items: center;
+      text-align: center;
+     }
+     #footer_{
+      width: 190%;
+      font-size: 20%;
      }
 }
