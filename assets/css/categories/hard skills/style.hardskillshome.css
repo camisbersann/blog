@@ -312,5 +312,13 @@ h1.heading {
 }
   .display1{
     margin-left: 0;
+    flex-direction: column;
   }
+  .card_top {
+   width: 0;
+   margin-left: 0;
+    }
+    .card_top img {   
+      margin-left: 0;
+       }  
 }
