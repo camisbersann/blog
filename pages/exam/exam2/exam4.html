@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ember Diamond</title>
+    <link rel="icon" type="image/x-icon" href="../../../assets/images/logoblog.png">
     <link rel="icon" type="image/x-icon" href="../../../../assets/images/logoblog.png">
     <link rel="stylesheet" type="text/css" href="../../../assets/css/categories/exam/style.exam.css">
     <!--Icons-->
@@ -25,7 +26,7 @@
             <div class="posted">
                 <img id="posted_byP" src="../../../assets/images/icon2.png" alt="professor">
                 <p>Professor Garibaldo</p>
-                <img id="posted_byH" src="../../assets/../../assets/images/heart-5614865_960_720.jpg" alt="like">
+                <img id="posted_byH" src="../../../assets/images/heart-5614865_960_720.jpg" alt="like">
                 <p id="italic"> ~ postado a 2 dias</p>
                 <!--Div de avaliacao-->
                 <div class="stars">
@@ -44,7 +45,7 @@
                     <!--Div com df para imagem e conteúdo-->
                     <div id="top">
 
-                        <img class="abertura_img" src="../../assets/images/vestibular_4.jpg" alt="imagem autogestao">
+                        <img class="abertura_img" src="../../../assets/images/vestibular_4.jpg" alt="imagem autogestao">
 
                         <p class="text_maincontent">
                             Mantenha-se dentro do tema: É importante manter-se dentro do tema proposto na redação. Evite
@@ -91,23 +92,25 @@
             <!--sessão comentários-->
             <div class="side_coments">
                 <!--comentário-->
-                <section class="coments">
-                    <!--conteúdo do comentário-->
-                    <div class="coments_content">
-                        <img class="img_coment" src="../../../assets/images/icon1.png" alt="foto comentário">
-                        <p class="user">oRAngeLima</p>
-                        <p class="posted_byU"> ~ postado a 1 hora</p>
-                    </div>
-                    <p> Gostei!</p>
-                </section>
-                <section class="coments">
-                    <div class="coments_content">
-                        <img class="img_coment" src="../../../assets/images/icon2.png" alt="foto comentário">
-                        <p class="user">Listradinho</p>
-                        <p class="posted_byU"> ~ postado a 4 horas</p>
-                    </div>
-                    <p> Conteúdo muito bom! Parabéns</p>
-                </section>
+                <div id="mobile_div_for_comments">
+                    <section class="coments">
+                        <!--conteúdo do comentário-->
+                        <div class="coments_content">
+                            <img class="img_coment" src="../../../assets/images/icon1.png" alt="foto comentário">
+                            <p class="user">oRAngeLima</p>
+                            <p class="posted_byU"> ~ postado a 1 hora</p>
+                        </div>
+                        <p> Gostei!</p>
+                    </section>
+                    <section class="coments">
+                        <div class="coments_content">
+                            <img class="img_coment" src="../../../assets/images/icon2.png" alt="foto comentário">
+                            <p class="user">Listradinho</p>
+                            <p class="posted_byU"> ~ postado a 4 horas</p>
+                        </div>
+                        <p> Conteúdo muito bom! Parabéns</p>
+                    </section>
+                </div>
                 <section class="coments">
                     <div class="coments_content">
                         <img class="img_coment" src="../../../assets/images/icon3png.png" alt="foto comentário">
@@ -125,32 +128,39 @@
                     <p>Poderia ter mais conteúdo.</p>
                 </section>
         </aside>
-
     </div>
-    <article id="break">
-        <article>
-            <div class="articles_blog">
+    <div id="break"></div>
+    <article>
+        <div class="articles_blog">
+
+            <a href="../exam1/exam.html">
                 <section class="cards">
-                    <a href="../exam1/exam.html">
-                        <img class="card_img" src="../../../../assets/images/vestibular_2.jpeg">
-                        <p class="card_texts">Sobre redação</p>
-                    </a>
+
+                    <img class="card_img" src="../../../assets/images/vestibular_2.jpeg">
+                    <p class="card_texts">Sobre redação</p>
+
                 </section>
+            </a>
+            <a href="../exam3/exam5.html">
                 <section class="cards">
-                    <a href="../exam3/exam5.html">
-                        <img class="card_img" src="../../../../assets/images/vestibular_4.jpg">
-                        <p class="card_texts">Sobre o ENEM</p>
-                    </a>
+
+                    <img class="card_img" src="../../../assets/images/vestibular_4.jpg">
+                    <p class="card_texts">Sobre o ENEM</p>
+
                 </section>
-                <a href="../exam4/exam7.html">
-                    <section class="cards">
-                        <img class="card_img" src="../../../../assets/images/vestibular_2.jpg">
-                        <p class="card_texts">Redação ENEM 2023</p>
-                    </section>
-                </a>
-            </div>
-        </article>
-        </article>
+            </a>
+
+            <a href="../exam4/exam7.html">
+                <section class="cards">
+                    <img class="card_img" src="../../../assets/images/vestibular_2.jpg">
+                    <p class="card_texts">Redação ENEM 2023</p>
+                </section>
+            </a>
+
+
+        </div>
+    </article>
+
 
     <!--footer-->
     <iframe src="../../../layouts/footer.html" id="footer_" frameborder="0" scrolling="no"></iframe>
