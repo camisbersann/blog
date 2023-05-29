@@ -273,7 +273,7 @@ h1.heading {
 }
 @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
   .card_top img {
-    width: 180%;
+    width: 170%;
     height: auto;
     margin-left: 10%;
 }
