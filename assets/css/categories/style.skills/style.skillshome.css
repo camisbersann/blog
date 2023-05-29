@@ -285,7 +285,6 @@ display: none;
 }
 .display {
 flex-direction: column;
-
 width: 100%;
 }
 #ads{
@@ -314,16 +313,16 @@ main{
 }
 #banners #ifood {
     margin: 5%;
-    width: 60%;
+    width: 80%;
     height: 50%;
 }#banners #kuat {
   margin: 5%;
-  width: 60%;
+  width: 80%;
   height: 50%;
 }p {
   font-family: 'Montserrat', sans-serif;
   font-size: 150%;
- width: 190%;
+ width: 164%;
  margin-left: 0;
 }
 #top{
@@ -336,5 +335,13 @@ main{
 margin-top: 20%;
     width: 200%;
     font-size: 150%;
+}
+
+.card_middle h2 {
+font-size: 200%;
+}
+.card-content {
+    font-size: 80%;
+    width: 80%;
 }
 }
