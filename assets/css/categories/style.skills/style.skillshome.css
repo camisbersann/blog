@@ -320,5 +320,13 @@ main{
   margin: 5%;
   width: 60%;
   height: 50%;
+}p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  width: 190%;
+  margin: 0;
+}
+#top{
+  margin: auto;
 }
 }
