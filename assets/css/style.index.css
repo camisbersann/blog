@@ -279,5 +279,14 @@ h1.heading {
   .display {
 flex-direction: column;
   }
- 
+  #ad img {
+    display: none;
+}
+#banners #sp {
+  display: none;
+}
+#ads {
+  margin-left: 0;
+  text-align: center;
+}
 }
