@@ -323,4 +323,19 @@ h1.heading {
        .card_middle{
         margin-top: 0;
        }
+       p{
+        width: 120%;
+        font-size: 300%;
+       }
+#banners #sp {
+  display: none;
+}
+.card_middle h2 {
+  margin-left: 7.4vh;
+  font-size:300%;
+}
+.blue {
+  font-size: 200%;
+  width: 90%;
+}
 }
