@@ -107,10 +107,9 @@
     font-family: content;
     src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
-@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
-    .bar_menu .menu li {
 
-    }
+@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
+    
     .bar_menu .menu li {
         margin-right: 6px;
         padding: 12px;
@@ -122,3 +121,4 @@
         justify-content: center;
     }
 }
+
