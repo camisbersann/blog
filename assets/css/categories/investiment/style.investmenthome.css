@@ -263,7 +263,7 @@ h1.heading {
     transition: 0.5s;
 }
 
-@media (max-width: 900px) and (min-width: 400px) {
+@media (max-device-width: 900px) and (min-device-width: 400px) {
      /* #menu{
      width: 350%;
      }
@@ -303,6 +303,7 @@ h1.heading {
       margin: 0;
       margin-left: 50%;
       margin-right: 50%;
+      width: auto;
       
      }
      .card_middle {
@@ -313,8 +314,8 @@ h1.heading {
   }
  
 #ad {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 7.4vh;
+  margin-bottom:7.4vh;
   margin-left: 0;
 }
 #ad img {
@@ -329,8 +330,9 @@ main h1 {
   border-bottom: rgba(51, 51, 51, 0.7) solid 0.7vh;
 }
 .card_middle img {
-  width: 150%;
+  
   height: 31vh;
+  width: auto;
   border-radius: 5px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -377,5 +379,16 @@ p {
 }
 .pp{
   margin-left: 60%;
+}
+#ads {
+  margin-left: 0;
+}
+#banners #sp, #kaut, #ifood {
+  margin: 1.5vh;
+  width: aut;
+  height: 31vh;
+  padding: 1.5vh;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 }
