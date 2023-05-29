@@ -328,4 +328,7 @@ main{
 #top{
   margin: auto;
 }
+#top h2, h3 {
+  
+}
 }
