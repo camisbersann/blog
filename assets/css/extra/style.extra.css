@@ -30,7 +30,6 @@ p{
 }
 /*Estilização da parte superior do site*/
 #top{
-    display: flex;
     background-color: transparent;
 }
 /*Estilização  do texto da parte superior do site*/
@@ -47,7 +46,6 @@ p{
 #top img{
     width: 74vh;
     height: 67vh;
-    margin-right: 150px;
     margin-top: 100px;
     background-color: transparent;
     border: 2px solid #579BB1;
@@ -79,7 +77,6 @@ p{
 #bottom{
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
-    height: 81vh;
     border-radius: 5px;
     border: 2px solid #579BB1;
     border-left: 5px solid #579BB1;
@@ -326,4 +323,16 @@ p{
 {
   background: transparent;
   box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
+}
+
+@media (max-width:900px) and (min-width:400px){
+  .display{
+   display: block;
+  }
+  .comment{
+    width: 90%;
+  }
+  #bottom{
+   width: 100%;
+  }
 }
