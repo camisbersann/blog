@@ -143,5 +143,28 @@ a {
     font-family: 'Montserrat', sans-serif;
     border-radius: 5px;
 }
-    
+.artigo1 {
+    background-color: #579BB1;
+    text-align: justify;
+    padding-top: 60px;
+    width: auto;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 290px;
+}
+.artigo {
+    background-color: #F8F4EA;
+    text-align: justify;
+    height: 10vh;
+    width: auto;
+    margin-top: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 290px;
+    flex-direction: column;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
 }

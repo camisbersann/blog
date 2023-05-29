@@ -132,9 +132,11 @@ a {
     .article1 {
         background-color: #579BB1;
         text-align: justify;
-        height: 55vh;
+        height: 25vh;
         width: AUTO;
-        padding: 135px;
+        padding-left: 135px;
+        padding-top: 135px;
+        padding-right: 135px;
         flex-direction: column;
         font-family: 'Montserrat', sans-serif;
         margin: 0%;
