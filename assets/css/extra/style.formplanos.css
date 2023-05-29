@@ -114,6 +114,19 @@ input{
   @keyframes mymove {
     50% {transform: rotate(5deg);}
   }
+
+@media (max-width:900px) and (min-width:400px){
+    .decoration{
+        display: block;
+    }
+    .personal{
+        display: block;
+    }
+    .img_card{
+        height: 10%;
+    }
+    
+}
   
 
 
