@@ -320,4 +320,7 @@ h1.heading {
     .card_top img {   
       margin-left: 0;
        }  
+       .card_middle{
+        margin-top: 0;
+       }
 }
