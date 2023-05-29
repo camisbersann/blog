@@ -1,7 +1,7 @@
 /*Importação da fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-#header{
+#header {
     width: 100%;
     height: 100%;
 }
@@ -11,6 +11,7 @@ body {
     padding: 0px;
     background-color: #F8F4EA
 }
+
 .article {
     background-color: #F8F4EA;
     text-align: justify;
@@ -21,6 +22,7 @@ body {
     color: #333;
     font-family: 'Montserrat', sans-serif;
 }
+
 /*Article com conteudo1*/
 .article1 {
     background-color: #579BB1;
@@ -33,6 +35,7 @@ body {
     margin: 0%;
     margin-top: 0%;
 }
+
 /*div de organizacao*/
 div {
     display: flex;
@@ -45,12 +48,14 @@ div {
     font-weight: bold;
 
 }
+
 /*formulario*/
 form {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
+
 /*div com comteudo*/
 .div {
     display: flex;
@@ -58,6 +63,7 @@ form {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
 }
+
 /*div com conteudo*/
 .div1 {
     display: flex;
@@ -66,6 +72,7 @@ form {
     font-family: 'Montserrat', sans-serif;
     margin: 13px;
 }
+
 /*estilizacao do botao*/
 button {
     margin-top: 20px;
@@ -78,12 +85,14 @@ button {
     border-radius: 5px;
     width: 20vh;
 }
+
 /*estilizacao do comentario*/
 #comentário {
     padding-top: 12px;
     padding-bottom: 50px;
     border: solid white;
 }
+
 /*estilizazcao do input*/
 input {
     padding-top: 8px;
@@ -95,44 +104,52 @@ input {
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
 }
+
 /*estilizacao do titulo*/
 h1 {
 
     font-family: 'Montserrat', sans-serif;
 }
+
 /*estilizacao do paragtrafo*/
 p {
     text-align: left;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
+
 /*estilizacao do link*/
 a {
     text-decoration: none;
 }
+
 /*ajeitando o footer*/
 #felipe {
-  margin-top: -54px;
-  margin-bottom: -35px;
+    margin-top: -54px;
+    margin-bottom: -35px;
 }
+
 /*footer*/
 #iframe_footer {
     margin-bottom: -5px;
     width: 100%;
     height: 43vh;
 }
+
 .img1 {
     width: 50px;
     height: 50px;
 }
+
 @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
     div {
         display: inline;
     }
+
     .article1 {
         background-color: #579BB1;
         text-align: justify;
-        height: 25vh;
+        height: 35vh;
         width: AUTO;
         padding-left: 135px;
         padding-top: 135px;
@@ -142,6 +159,7 @@ a {
         margin: 0%;
         margin-top: 0%;
     }
+
     .article {
         background-color: #F8F4EA;
         text-align: justify;
@@ -152,6 +170,7 @@ a {
         color: #333;
         font-family: 'Montserrat', sans-serif;
     }
+
     .artigo {
         background-color: #F8F4EA;
         text-align: justify;
@@ -163,6 +182,57 @@ a {
         padding-bottom: 150px;
         flex-direction: column;
         color: #333;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .label {
+        font-size: 40px;
+        padding-top: 10px;
+        font-weight: bold;
+
+    }
+
+    button {
+        margin-top: 30px;
+        padding: 15px;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+        background-color: #579BB1;
+        border: solid black;
+        border-radius: 5px;
+        width: 10vh;
+    }
+
+    input {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 650px;
+        border: solid white;
+        font-size: 35px;
+        font-family: title;
+        border-radius: 5px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 30px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        width: 34vh;
+        font-family: 'Montserrat', sans-serif;
+        margin: 15px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    p {
+        text-align: left;
+        font-size: 40px;
         font-family: 'Montserrat', sans-serif;
     }
 }
