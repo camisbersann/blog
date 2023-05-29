@@ -333,9 +333,22 @@ p{
     width: 90%;
   }
   #bottom{
-   width: 100%;
+   width: 90%;
+   margin-left: 5%;
   }
   p{
-    font-size: 18px;
+    font-size: 100%;
   }
+ .box{
+  margin-left: 0;
+ }
+ .plano_2{
+  width:70% ;
+ }
+ .bar_menu{
+  width: auto;
+ }
+ .container .box{
+  width: 90%;
+ }
 }
