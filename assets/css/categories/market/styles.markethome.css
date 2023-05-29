@@ -333,5 +333,14 @@ font-size:350%;
   }#blue2{
    
     font-size: 300%
-  }
+  }#p03{
+    font-size: 230%;
+    margin-left: 2%;
+  } 
+.card-title {
+  font-size: 400%;
+}
+.card-read-more a {
+  font-size: 180%;
+}
 }
