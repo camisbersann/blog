@@ -125,3 +125,42 @@ a {
     width: 50px;
     height: 50px;
 }
+@media screen and (max-device-width: 600px) and (min-device-height: 400px) {
+    div {
+        display: inline;
+    }
+    .article1 {
+        background-color: #579BB1;
+        text-align: justify;
+        height: 55vh;
+        width: AUTO;
+        padding: 135px;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0%;
+        margin-top: 0%;
+    }
+    .article {
+        background-color: #F8F4EA;
+        text-align: justify;
+        height: 20vh;
+        width: auto;
+        padding: 150px;
+        flex-direction: column;
+        color: #333;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .artigo {
+        background-color: #F8F4EA;
+        text-align: justify;
+        height: 100%;
+        width: 39vh;
+        margin-top: 27px;
+        padding-left: 150px;
+        padding-right: 0;
+        padding-bottom: 150px;
+        flex-direction: column;
+        color: #333;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
