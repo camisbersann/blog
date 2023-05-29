@@ -122,8 +122,10 @@ input{
     .personal{
         display: block;
     }
-    .img_card{
-        height: 10%;
+    #footer_{
+        margin-bottom: 0;
+        padding: 0;
+        margin: 0;
     }
     
 }
