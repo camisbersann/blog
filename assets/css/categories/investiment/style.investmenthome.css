@@ -34,9 +34,6 @@ main h1{
     margin-left: 7.4vh;
     font-family: 'Montserrat', sans-serif;
 }
-h2{
-  text-align: center;
-}
 /*Estilização das tags de texto do site*/
 h4, h6, a{
     font-family: 'Montserrat', sans-serif;
@@ -50,17 +47,18 @@ p{
     margin-left: 7.4vh;
 }
 
+main h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
 /*Classe para colocar cor nas tags de texto*/
 .blue{
     color: #579BB1;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    margin-left: 7px;
 }
 /*Cor de fundo transparente da parte superior do site*/
 #top{
     background-color: transparent;
-   margin-left: 30%;
  }
 /*Estilização da parte do banner do site*/
 .banner{
@@ -84,7 +82,7 @@ p{
 /*Cards de noticía da parte superior do site*/
 .card_top{
     margin-top: 3vh;
-    margin-left: 17vh;
+    margin-left: 7.4vh;
     margin-right: 7.4vh;
     width: 50%;
 }
@@ -99,26 +97,36 @@ p{
 }
 /*Estilização do texto dos cards do topo do site*/
 .card_top h2{
+    margin-left: 6vh;
     font-family: 'Montserrat', sans-serif;
     color: #333;
 }
-
+/*Estilização do texto com animação*/
+.card_top h2:hover{
+    color: #579BB1;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .4s;
+}
 /*Cards de noticía do meio do site*/
 .card_middle{
     margin: 3vh;
     margin-top: 7.4vh;
     width: 33%;
-    margin-left: 0;
 }
 /*Estilização da imagem dos cards do meio do site*/
 .card_middle img{
-    width: 64svh;
+    width: 54vh;
     height: 31vh;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+/*Estilização do texto dos cards do meio do site*/
+.card_middle h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
 /*Estilização do texto com animação*/
 .card_middle h2:hover{
     color: #579BB1;
@@ -136,7 +144,6 @@ p{
 #ad{
     margin-top: 7.4vh;
     margin-bottom: 7.4vh;
-    margin-left: 7vh;
 }
 /*Tamanho das imagens das propagandas*/
 #ad img{
@@ -148,7 +155,7 @@ p{
 /*Propagandas*/
 
 #ads{
-    margin-left: 30%;
+    margin-left: 22.4vh;
 }
 /*Propaganda de South Park*/
 #banners #sp{
@@ -178,6 +185,8 @@ p{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+-- 
+ 
 .wrapper {
   display: table;
   height: 100%;
@@ -204,11 +213,26 @@ p{
 h1.heading {
   color: #fff;
   font-size: 1.15em;
-  font-weight: 900px;
+  font-weight: 900;
   margin: 0 0 0.5em;
   color: #505050;
 }
-
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+} 
 .card {
   display: block; 
     margin-bottom: 20px;
@@ -262,133 +286,99 @@ h1.heading {
     border-radius: 15px;
     transition: 0.5s;
 }
-
-@media (max-device-width: 900px) and (min-device-width: 400px) {
-     /* #menu{
-     width: 350%;
-     }
-     main h1 {
-     align-items: center;
-     font-size: xx-large;
-    
-     }
-     #footer_{
-      width: 250%;
-      margin-left: auto;
-     }
-     #top{
-      display:block;
-     }
-     #art1{
-      display: block;
-      margin-left: 0%;
-     
-     }
-     .imgg{
-     align-items: left;
-     width: 217px;
-     } */
-     .display {
-      margin: 0;
-      display: block;
-
-     }
-     .card_top {
-      margin: 0;
-      margin-bottom: 5%;
-      
-
-     }
-     .card_top img {
-      margin: 0;
-      margin-left: 50%;
-      margin-right: 50%;
-      width: auto;
-      
-     }
-     .card_middle {
-      margin: 0;
-      margin-top: 7.4vh;
-      width: 33%;
-      margin-left: 20%;
-  }
- 
-#ad {
-  margin-top: 7.4vh;
-  margin-bottom:7.4vh;
-  margin-left: 0;
+@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
+  .display {
+    display: block;
+    background-color: transparent;
+    margin-left: 0;
+    margin-right: 0;
 }
-#ad img {
-  width: 0;
-  height: 20vh;
+.card_top {
+  margin-top: 3vh;
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 main h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  margin: 0;
-  font-size: 7.4vh;
+  margin: 7.4vh;
+  font-size: xx-large;
   border-bottom: rgba(51, 51, 51, 0.7) solid 0.7vh;
 }
-.card_middle img {
-  
-  height: 31vh;
-  width: auto;
+.card_top img {
+  width: 100%;
+  height: 50vh;
+  margin-left: 0;
   border-radius: 5px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  margin-left: 20%;
-  margin-right: 20%;
 }
-#top {
-  background-color: transparent;
+.card_middle {
+  margin-top: 3vh;
   margin-left: 0;
+  margin-right: 0;
+  width: auto;
+  padding-left: 6%;
+  padding-right: 6%;
 }
-#art1{
-  margin-left: 0%;
-  align-items: stretch;
-}
-.blue {
-  color: #579BB1;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-h2{
-  margin-left: 50%;
-}
-p {
-  display: block;
-  /* white-space: nowrap; */
-}
-#top h2, h3 {
-  text-align:center;
-    margin-left: 0;
-  font-family: 'Montserrat', sans-serif;
-}
-.wrapper {
-  display: table;
-  height: 100%;
+.card_middle img {
   width: 100%;
-  text-align: center;
-  align-items: center;
- 
+  height: 50vh;
+  margin-left: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.card_top h2 {
- 
-  font-family: 'Montserrat', sans-serif;
-  color: #333;
-}
-.pp{
-  margin-left: 60%;
+#ad img {
+  width: 100%;
+  height: 20vh;
 }
 #ads {
-  margin-left: 0;
+  align-items: stretch;
+  margin: auto;
+  width: auto;
 }
-#banners #sp, #kaut, #ifood {
-  margin: 1.5vh;
-  width: aut;
+#banners{
+  display: inline;
+}
+#banners #ifood {
+  margin: 0;
+  width: 50%;
+  margin-bottom: 5%;
   height: 31vh;
   padding: 1.5vh;
   border-radius: 5px;
+  margin-left: 25%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#banners #kuat {
+  display: block;
+  margin: 0;
+  width: 50%;
+  margin-bottom: 5%;
+  height: 31vh;
+  padding: 1.5vh;
+  border-radius: 5px;
+  margin-left: 25%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#banners #sp {
+  margin: 0;
+  width: 50%;
+  margin-bottom: 5%;
+  height: 31vh;
+  padding: 1.5vh;
+  border-radius: 5px;
+  margin-left: 25%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#ad{
+  display: none;
+}
+#top {
+  background-color: transparent;
 }
 }

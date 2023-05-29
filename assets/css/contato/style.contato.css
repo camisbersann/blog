@@ -141,7 +141,7 @@ a {
     height: 50px;
 }
 
-@media screen and (max-device-width: 600px) and (min-device-height: 400px) {
+@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
     div {
         display: inline;
     }
