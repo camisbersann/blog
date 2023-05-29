@@ -55,6 +55,10 @@ main h1{
     color: #579BB1;
     font-family: 'Montserrat', sans-serif;
 }
+#blue2{
+  color: #579BB1;
+  font-family: 'Montserrat', sans-serif;
+}
 /*Cor de fundo transparente da parte superior do site*/
 #top{
     background-color: transparent;
@@ -311,11 +315,20 @@ h1.heading {
     margin-left: 0;
   }.card_middle h2{
     margin-left: 7.4vh;
+  }.card_middle {
+    margin-top: 0;
+    margin-left: 3%;
+    margin-right: 3%;
   }
-  #p20{
-
+  .p20{
+width: 180%;
+font-size:350%;
   }
-  #h20{
-    
+  .h20{
+    width: 180%;
+    font-size:350%;
+  }.blue{
+    width: 150%;
+    font-size: 300%;
   }
 }
