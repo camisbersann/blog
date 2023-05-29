@@ -272,6 +272,6 @@ h1.heading {
 }
 @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
   .display{
-    
+    flex-direction: column;
   }
 }
