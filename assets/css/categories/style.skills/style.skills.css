@@ -372,7 +372,7 @@ button{
     font-size: 130%;
 }
 .user{
-    font-size: 150%;
+    font-size: 200%;
 }
 .img_coment {
     width: 10%;
@@ -413,5 +413,8 @@ button{
 }
 .stars {
     font-size: 130%;
+}
+article{
+    font-size: 180%;
 }
 }
