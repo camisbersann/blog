@@ -275,7 +275,7 @@ h1.heading {
   .card_top img {
     width: 170%;
     height: auto;
-    margin-left: 10%;
+   margin: 0;
 }
 #ad img {
 display: none;
