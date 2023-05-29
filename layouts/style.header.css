@@ -107,4 +107,18 @@
     font-family: content;
     src: url(../assets/fonts/titulo/Montserrat-VariableFont_wght.ttf);
 }
+@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
+    .bar_menu .menu li {
 
+    }
+    .bar_menu .menu li {
+        margin-right: 6px;
+        padding: 12px;
+        transition: 0.3s;
+        text-transform: uppercase;
+        font-family: content;
+        display: flex;
+        width: auto;
+        justify-content: center;
+    }
+}
