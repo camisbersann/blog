@@ -351,4 +351,7 @@ p{
  .container .box{
   width: 90%;
  }
+ #top h1{
+  font-size: 40px;
+ }
 }
