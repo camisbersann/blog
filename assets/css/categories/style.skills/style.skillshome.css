@@ -332,4 +332,8 @@ main{
 #top h2, h3 {
   margin: 0;
 }
+.blue {
+margin-top: 20%;
+    width: 200%;
+}
 }
