@@ -324,6 +324,7 @@ main{
   font-family: 'Montserrat', sans-serif;
   font-size: 150%;
  width: 190%;
+ margin: 0;
 }
 #top{
   margin: auto;
