@@ -123,10 +123,37 @@ input{
     .personal{
         display: block;
     }
-    
-    
+    .tt{
+        margin-left: 40%;
+        white-space: nowrap;
+    }
+    #in{
+        margin-left: 15%;
+    }
+    #ttt{
+        margin-left: 20%;
+        white-space: nowrap;
+    }
+    #inn{
+        margin-left: 5%;
+    }
+    .button{
+        margin-left: 30%;
+    }
+    .cadastro{
+        margin-bottom: 100%;
+    }
+    .img_card{
+        width: 60%;
+        margin-left: -1%;
+    }
+    #image_ani{
+        margin-left: -10%;
+       margin-top: -7%;
+    }
+
+      
     
 }
-  
 
 
