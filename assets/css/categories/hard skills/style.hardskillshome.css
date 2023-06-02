@@ -311,37 +311,3 @@ h1.heading {
 
   }
 }
-@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
-  #ad {
-    display: none;
-}
-#banners #sp {
-  display: none;
-}
-#ad{
-  margin-left: 0;
-  text-align: center;
-}
-
-#banners #ifood  {
-  width: 70%;
-  height: auto;
-}
-
-#banners #kuat {
-width: 70%;
-height: auto;
-}
-.card_top img{
-  margin-left: 0;
-  height: auto;
-width: 170%;
-}
-.display{
-  flex-direction: column;
-margin-left: 0;
-margin-right: 0;
-
-}
-
-}
