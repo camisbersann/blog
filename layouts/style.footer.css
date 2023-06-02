@@ -118,5 +118,7 @@ i {
         flex-direction: column;
         text-align: left;
     }
-    
+    *{
+        font-size: xx-large;
+    }
 }
