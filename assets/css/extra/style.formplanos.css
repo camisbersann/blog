@@ -143,7 +143,15 @@ input{
     .cadastro{
         margin-bottom: 100%;
     }
-    
+    .img_card{
+        width: 60%;
+        margin-left: 10%;
+    }
+    #image_ani{
+       margin-left: -10%;
+       margin-top: -7%;
+    }
+
       
     
 }
