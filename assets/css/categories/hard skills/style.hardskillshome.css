@@ -318,7 +318,9 @@ h1.heading {
    margin-left: 0.5%;
     }
     .card_top img {   
-      margin-left: 0;
+      margin-left: 10%;
+      width: 120%;
+      height: auto;
        }  
        .card_middle{
         margin-top: 0;
@@ -338,4 +340,15 @@ h1.heading {
   font-size: 200%;
   width: 90%;
 }
+.card-read-more a {
+font-size: 200%;
+}
+.card-title {
+  font-size: 300%;
+}
+.card_middle img{
+  width: 70%;
+  height: 90%;
+}
+
 }
