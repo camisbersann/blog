@@ -310,7 +310,8 @@ width: 170%;
   flex-direction: column;
 margin-left: 0;
 margin-right: 0;
-
+}#ads{
+  margin: 0;
 }
 
 }
