@@ -337,5 +337,11 @@ height: auto;
   height: auto;
 width: 170%;
 }
+.display{
+  flex-direction: column;
+margin-left: 0;
+margin-right: 0;
+
+}
 
 }
