@@ -410,4 +410,8 @@ a {
     justify-content: center;
     align-items: center;
 }
+#top {
+    display: block;
+    align-items: center;
+}
 }
