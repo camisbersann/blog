@@ -450,8 +450,14 @@ a {
         flex-direction: column;
         vertical-align: middle;
         align-items: center;
+        width: auto;
     }
     *{
         font-size: xx-large;
+    }
+    #break {
+        background-color: #f4f4f4;
+        height: auto;
+        margin-top: 30px;
     }
 }
