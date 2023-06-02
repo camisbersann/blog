@@ -49,6 +49,7 @@ button:active {
 
 #article_aside {
     display: flex;
+    
 }
 
 aside {
@@ -66,6 +67,8 @@ aside {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 5%;
+    margin-top: 6%;
 }
 
 .coments {
@@ -328,6 +331,8 @@ a {
     height: 40vh;
 }
 
+
+
 @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
 
     #header_ {
@@ -461,7 +466,7 @@ a {
     }
     #img_começo{
         width: 300px;
-        height: 209px;
+        height: 225px;
     }
     .img_comentP{
         width: 20%;
