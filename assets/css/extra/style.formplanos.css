@@ -128,11 +128,17 @@ input{
         white-space: nowrap;
     }
     #in{
-        margin-left: 10%;
+        margin-left: 15%;
     }
     #ttt{
         margin-left: 20%;
         white-space: nowrap;
+    }
+    #inn{
+        margin-left: 5%;
+    }
+    .button{
+        margin-left: 30%;
     }
 }
   
