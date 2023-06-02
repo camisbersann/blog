@@ -130,6 +130,10 @@ input{
     #in{
         margin-left: 10%;
     }
+    #ttt{
+        margin-left: 20%;
+        white-space: nowrap;
+    }
 }
   
 
