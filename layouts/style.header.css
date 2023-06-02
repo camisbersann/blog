@@ -5,23 +5,23 @@
 }
 /* estilização do menu e da barra de navegação */
 .bar_menu {
-    overflow: hidden;
+
+}
+
+.menu {
     background-color: #2c2a29;
     transition: all 0.3s linear;
     display: flex;
     margin: 0;
     height: 100px; 
-}
-
-.bar_menu .menu {
     justify-content: center;
     align-items: center;
 }
 /* estilização do título do menu */
 .bar_menu .bar_title {
-    height: 60px;
+    /* height: 60px;
     font-family: title;
-    text-align: center;
+    text-align: center; */
 }
 
 .box_menu .bar_title a {
@@ -37,7 +37,7 @@
     width: 100%;
 }
 
-.bar_menu .menu ul {
+.menu ul {
     display: flex;
     align-items: center;
 }
@@ -119,6 +119,19 @@
         display: flex;
         width: auto;
         justify-content: center;
+    }
+    .bar_menu {
+        /* overflow: hidden;
+        background-color: #2c2a29;
+        transition: all 0.3s linear;
+        display: block;
+        margin: 0;
+        height: 100px; */
+    }
+    .bar_menu .menu {
+        display: flex;
+        width: 100%;
+
     }
 }
 
