@@ -318,18 +318,24 @@ h1.heading {
 #banners #sp {
   display: none;
 }
-#ads{
+#ad{
   margin-left: 0;
   text-align: center;
 }
 
 #banners #ifood  {
-  width: 180%;
+  width: 70%;
   height: auto;
 }
 
 #banners #kuat {
-width: 180%;
+width: 70%;
 height: auto;
 }
+.card_top img{
+  margin-left: 0;
+  height: auto;
+width: 170%;
+}
+
 }
