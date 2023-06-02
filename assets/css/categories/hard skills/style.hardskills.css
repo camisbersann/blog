@@ -319,7 +319,7 @@ a {
         padding-right: 0;
         padding-right: auto;
         margin: 2%;
-        font-size: 22px;
+        font-size: 30px;
 
     }
 
@@ -359,7 +359,7 @@ a {
         padding-bottom: 30px;
         width: auto;
         /* margin-left: 30%; */
-        font-size: larger;
+        font-size: 30px;
     }
 
     .card_img {
@@ -402,5 +402,8 @@ a {
         flex-direction: column;
         vertical-align: middle;
         align-items: center;
+    }
+    *{
+        font-size: xx-large;
     }
 }
