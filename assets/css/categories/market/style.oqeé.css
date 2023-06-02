@@ -321,7 +321,6 @@ a {
     height: 43vh;
 }
 @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
-    body {}
 
     #header_ {
         width: 100%;
