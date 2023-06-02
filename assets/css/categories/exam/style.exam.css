@@ -334,17 +334,34 @@ a {
 
 
 @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
-    body {
+    body {}
+
+    #header_ {
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
+
+    #footer_ {
+        width: 100%;
+        height: 40vh;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -3%;
+    }
+
     main {
         width: auto;
     }
+
     .articles_blog {
         display: block;
     }
+
     #article_aside {
         display: block;
     }
+
     .coments {
         border: lightblue solid 5px;
         border-radius: 4px;
@@ -352,17 +369,19 @@ a {
         margin-top: 1.5vh;
         margin-bottom: 1.5vh;
         width: auto;
-        padding-right: 30vh;
+        padding-right: 0;
         padding-right: auto;
         margin: 2%;
-        font-size: 22px;
+        font-size: 30px;
+
     }
+
     .side_coments {
         background-color: #579BB1;
         margin: 0.7vh;
         border-radius: 5px;
         border: solid 5px lightblue;
-        /* padding: 15px; */
+        padding: 0; 
         -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
         box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
@@ -372,7 +391,10 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: stretch;
+        height: 100%;
+        width: 100%;
     }
+
     .cards {
         padding: 15px;
         border-radius: 15px;
@@ -390,11 +412,14 @@ a {
         padding-bottom: 30px;
         width: auto;
         /* margin-left: 30%; */
-        font-size: larger;
+        font-size: 30px;
     }
+
     .card_img {
-        height: 64%;
+        height: 128px;
+        width: 20%;
     }
+
     button {
         border: solid 3px #E1D7C6;
         background-color: #ECE8DD;
@@ -403,11 +428,35 @@ a {
         margin: 20px;
         height: 60px;
         font-size: larger;
-}
-.posted {
-    display: flex;
-    font-size: 22px;
-    justify-content: center;
-    align-items: center;
-}
+    }
+
+    .posted {
+        display: flex;
+        font-size: 22px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #top {
+        display: block;
+        align-items: center;
+    }
+
+    aside {
+        background-color: #579BB1;
+        margin: 15px;
+        border-radius: 5px;
+        padding: 15px;
+        -webkit-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
+        box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        vertical-align: middle;
+        align-items: center;
+    }
+    *{
+        font-size: xx-large;
+    }
 }
