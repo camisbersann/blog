@@ -363,7 +363,8 @@ a {
     }
 
     .card_img {
-        height: 64%;
+        height: 128px;
+        width: 20%;
     }
 
     button {
