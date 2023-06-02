@@ -49,6 +49,7 @@ button:active {
 
 #article_aside {
     display: flex;
+    
 }
 
 aside {
@@ -66,6 +67,7 @@ aside {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 5%;
 }
 
 .coments {
