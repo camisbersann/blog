@@ -145,7 +145,7 @@ input{
     }
     .img_card{
         width: 60%;
-        margin-left: 10%;
+        margin-left: -1%;
     }
     #image_ani{
        margin-left: -10%;
