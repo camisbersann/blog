@@ -458,4 +458,20 @@ a {
     *{
         font-size: xx-large;
     }
+    .img_comentP{
+        width: 20%;
+        height: auto;
+    }
+    .coments_img {
+        width: 20%;
+        height: auto;
+    }
+    .img_coment {
+        width: 20%;
+        height: auto;
+    }
+    .img_coments {
+        width: 20%;
+        height: auto;
+    }
 }
