@@ -298,7 +298,7 @@ h1.heading {
 }
 
 
-@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
+@media (max-width: 900px) and (min-width: 400px) {
 #ads{
   margin-left: 0;
 }
@@ -327,7 +327,6 @@ h1.heading {
        }
        p{
         width: 120%;
-        font-size: 300%;
        }
 #banners #sp {
   display: none;
@@ -337,7 +336,7 @@ h1.heading {
   font-size:300%;
 }
 .blue {
-  font-size: 200%;
+  
   width: 90%;
 }
 .card-read-more a {
@@ -350,5 +349,4 @@ font-size: 200%;
   width: 70%;
   height: 90%;
 }
-
 }
