@@ -115,20 +115,20 @@ input{
     50% {transform: rotate(5deg);}
   }
 
-  @media (max-width:900px) and (min-width:400px){
+  @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
     .decoration{
         display: block;
-        margin-left: 10%;
+        margin-left: 6%;
     }
     .personal{
         display: block;
     }
     .tt{
-        margin-left: 40%;
+        margin-left: 0%;
         white-space: nowrap;
     }
     #in{
-        margin-left: 15%;
+        margin-left: 0%;
     }
     #ttt{
         margin-left: 20%;
@@ -141,19 +141,42 @@ input{
         margin-left: 30%;
     }
     .cadastro{
-        margin-bottom: 100%;
+        margin-bottom: 0;
     }
     .img_card{
-        width: 60%;
+        width: auto;
         margin-left: -1%;
+        height: auto;
     }
     #image_ani{
-        margin-left: -10%;
+        margin-left: 0;
        margin-top: -7%;
+       width: auto;
+       height: auto;
+    }
+    .cartao {
+        width: fit-content;
+        text-align: center;
+    }
+    input {
+        padding-left: 70px;
+        padding-right: 70px;
+        height: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+    }
+    #flag {
+        font-size: inherit;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
-      
-    
+    *{
+        font-size: 30px;
+    }
 }
 
 
