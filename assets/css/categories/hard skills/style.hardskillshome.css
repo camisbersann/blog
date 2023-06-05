@@ -318,6 +318,7 @@ h1.heading {
     width: 60%;
     margin-left: -0.5%;
     margin-left: 10%;
+    margin-bottom: 10%;
      }
     .card_top img {   
       margin-left: 10%;
@@ -344,8 +345,10 @@ font-size: 200%;
   font-size: 300%;
 }
 .card_middle img{
- 
+  width: 220%;
   height: 90%;
+  margin-left: 30%;
+ 
 }
 .container-fostrap{
   margin-left: 5%;
