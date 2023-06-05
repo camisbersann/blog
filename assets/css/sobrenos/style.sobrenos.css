@@ -167,12 +167,12 @@ h2 {
 
 
 
-@media (max-width: 600px) {
+@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
     header iframe{
     width: 100%;
 }
 #quemsomos {
-    margin-left: 19%;
+    margin-left: 30%;
 }
  #cardcamila{
     display: block;
@@ -187,12 +187,15 @@ h2 {
 
 .nome{
     text-align: auto;
-    margin-left: 25%;
+    margin-left: 26%;
+    font-size: 55px;
 }
 .nomee {
-    margin-left: 16%;
+    margin-left: 20%;
+    font-size: 55px;
 }
 h2{
-    margin-left: 21%;
+    margin-left: 23%;
+    font-size: 55px;
 }
 }
