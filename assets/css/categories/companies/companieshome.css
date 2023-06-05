@@ -335,5 +335,16 @@ main h1{
   border-bottom: rgba(51, 51, 51, 0.7) solid 0.7vh;
   font-size: 83px;
   margin-top: 7%;
+  margin-bottom: 10%;
+}
+
+#h22{
+  color: #579BB1;
+margin-top: 4%;
+font-size: 45px;
+}
+
+.banner{
+  margin-left: 1%;
 }
 }
