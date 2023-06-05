@@ -402,8 +402,20 @@ p{
 
 #pp1{
   font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
+  font-size: 45px;
   margin-left: -35%;
   margin: auto;
 }
+
+#hh2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+#img2{
+  margin-left: 20%;
+}
+#julia{
+margin-left: 42%;
+white-space: nowrap
+
 }
