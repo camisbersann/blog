@@ -316,6 +316,8 @@ h1.heading {
   }
   .card_top {
     width: 60%;
+    margin-left: -0.5%;
+    margin-left: 10%;
      }
     .card_top img {   
       margin-left: 10%;
@@ -325,9 +327,7 @@ h1.heading {
        .card_middle{
         margin-top: 0;
        }
-       p{
-        width: 120%;
-       }
+       
 #banners #sp {
   display: none;
 }
