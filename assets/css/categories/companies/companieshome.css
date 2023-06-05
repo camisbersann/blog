@@ -326,7 +326,8 @@ text-align: center;
 }
 
 .card {
-  margin-left: 1%;
+  margin-left: 0%;
+  width: 90%;
 }
 
 main h1{
@@ -364,5 +365,9 @@ p{
 font-size: 34px;
 margin-left: 6%;
 margin-top: -6%;
+}
+
+.block {
+  font-size: 35px;
 }
 }
