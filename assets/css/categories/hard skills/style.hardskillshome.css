@@ -336,7 +336,7 @@ h1.heading {
   font-size:300%;
 }
 .blue {
-  
+  font-size: 200%;
   width: 90%;
 }
 .card-read-more a {
@@ -348,5 +348,8 @@ font-size: 200%;
 .card_middle img{
   width: 70%;
   height: 90%;
+}
+.container-fostrap{
+  margin-left: 2%;
 }
 }
