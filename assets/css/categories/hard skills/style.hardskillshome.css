@@ -298,7 +298,7 @@ h1.heading {
 }
 
 
-@media (max-width: 900px) and (min-width: 400px) {
+@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
 #ads{
   margin-left: 0;
 }
@@ -324,9 +324,7 @@ h1.heading {
       width: 120%;
       height: auto;
        }  
-       .card_middle{
-        margin-top: 0;
-       }
+      
        
 #banners #sp {
   display: none;
@@ -346,7 +344,7 @@ font-size: 200%;
   font-size: 300%;
 }
 .card_middle img{
-  width: 70%;
+ 
   height: 90%;
 }
 .container-fostrap{
