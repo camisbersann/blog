@@ -315,23 +315,40 @@ h1.heading {
     flex-direction: column;
   }
   .card_top {
-   margin-left: 0.5%;
-    }
+    width: 60%;
+    margin-left: -0.5%;
+    margin-left: 7%;
+    margin-bottom: 10%;
+    margin-top: 15%;
+     }
     .card_top img {   
       margin-left: 10%;
       width: 120%;
       height: auto;
        }  
-       .card_middle{
-        margin-top: 0;
+       .card_top h2{
+        font-size: 270%;
        }
-       p{
-        width: 120%;
-        font-size: 300%;
-       }
-#banners #sp {
-  display: none;
-}
+      
+       
+       #banners #sp{
+        width: 60%;
+        height: 30%;
+      }
+      #banners #kuat{
+        width: 60%;
+        height: 30%;
+      }
+      #banners #ifood{
+        width: 60%;
+        height: 30%;
+      }
+      #banners{
+        text-align: center;
+      }
+      
+      
+
 .card_middle h2 {
   margin-left: 7.4vh;
   font-size:300%;
@@ -347,8 +364,24 @@ font-size: 200%;
   font-size: 300%;
 }
 .card_middle img{
-  width: 70%;
+  width: 220%;
   height: 90%;
+  margin-left: 20%;
+ 
+}
+.container-fostrap{
+  width: 80%;
+  margin-left: 8%;
+}
+p{
+  font-size: 220%;
+}
+.card_middle h2{
+  margin-left: 80%;
+}
+.card_middle p{
+  margin-left: 2%;
+  white-space: nowrap;
 }
 
 }
