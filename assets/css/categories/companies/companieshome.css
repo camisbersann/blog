@@ -221,22 +221,6 @@ h1.heading {
   margin: 0 0 0.5em;
   color: #505050;
 }
-@media (min-width: 450px) {
-  h1.heading {
-    font-size: 3.55em;
-  }
-}
-@media (min-width: 760px) {
-  h1.heading {
-    font-size: 3.05em;
-  }
-}
-@media (min-width: 900px) {
-  h1.heading {
-    font-size: 3.25em;
-    margin: 0 0 0.3em;
-  }
-} 
 .card {
   display: block; 
     margin-bottom: 20px;
@@ -295,4 +279,52 @@ h1.heading {
   color: #579BB1;
   text-align: center;
   margin-left: 500px;
+}
+@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
+  #ad {
+    display: none;
+}
+#banners #sp {
+  display: none;
+}
+#ad{
+  margin-left: 0;
+  text-align: center;
+}
+
+#banners #ifood  {
+  width: 70%;
+  height: auto;
+}
+
+#banners #kuat {
+width: 70%;
+height: auto;
+}
+.card_top img{
+  margin-left: 0;
+  height: auto;
+width: 170%;
+}
+.display{
+  flex-direction: column;
+margin-left: 0;
+margin-right: 0;
+text-align: center;
+}#ads{
+  margin: 0;
+}.card_middle{
+  margin-left: 12%;
+  margin-top: 2%;
+}
+#banners{
+  text-align: center;
+}
+.card_middle img {
+  height:auto;
+  width:200%;
+}
+main h1{
+  
+}
 }
