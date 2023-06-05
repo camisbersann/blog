@@ -358,4 +358,15 @@ p{
  *{
   font-size: 40px;
  }
+ .comment_txt {
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+}
+#image_ani {
+  width: 15vh;
+  height: 15vh;
+  margin: inherit;
+  animation: block;
+}
 }
