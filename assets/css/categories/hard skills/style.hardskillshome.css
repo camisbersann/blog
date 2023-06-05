@@ -331,9 +331,24 @@ h1.heading {
        }
       
        
-#banners #sp {
-  display: none;
-}
+       #banners #sp{
+        width: 60%;
+        height: 30%;
+      }
+      #banners #kuat{
+        width: 60%;
+        height: 30%;
+      }
+      #banners #ifood{
+        width: 60%;
+        height: 30%;
+      }
+      #banners{
+        text-align: center;
+      }
+      
+      
+
 .card_middle h2 {
   margin-left: 7.4vh;
   font-size:300%;
@@ -365,7 +380,8 @@ p{
   margin-left: 80%;
 }
 .card_middle p{
-  margin-left: 5%;
+  margin-left: 2%;
   white-space: nowrap;
 }
+
 }
