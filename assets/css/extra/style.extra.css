@@ -325,12 +325,13 @@ p{
   box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
 }
 
-@media (max-width:900px) and (min-width:400px){
+@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
+
   .display{
    display: block;
   }
   .comment{
-    width: 90%;
+    width: 95%;
   }
   #bottom{
    width: 90%;
@@ -352,6 +353,9 @@ p{
   width: 90%;
  }
  #top h1{
+  font-size: 40px;
+ }
+ *{
   font-size: 40px;
  }
 }
