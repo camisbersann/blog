@@ -317,8 +317,9 @@ h1.heading {
   .card_top {
     width: 60%;
     margin-left: -0.5%;
-    margin-left: 10%;
+    margin-left: 7%;
     margin-bottom: 10%;
+    margin-top: 15%;
      }
     .card_top img {   
       margin-left: 10%;
@@ -351,6 +352,7 @@ font-size: 200%;
  
 }
 .container-fostrap{
-  margin-left: 5%;
+  width: 80%;
+  margin-left: 8%;
 }
 }
