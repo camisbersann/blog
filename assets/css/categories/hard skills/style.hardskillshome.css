@@ -315,8 +315,8 @@ h1.heading {
     flex-direction: column;
   }
   .card_top {
-   margin-left: 0.5%;
-    }
+    width: 60%;
+     }
     .card_top img {   
       margin-left: 10%;
       width: 120%;
@@ -350,6 +350,6 @@ font-size: 200%;
   height: 90%;
 }
 .container-fostrap{
-  margin-left: 2%;
+  margin-left: 20%;
 }
 }
