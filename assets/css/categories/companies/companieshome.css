@@ -341,11 +341,28 @@ main h1{
 #h22{
   color: #579BB1;
 margin-top: 4%;
-font-size: 45px;
+font-size: 50px;
 }
 
 .banner{
-  margin-left: 1%;
+text-align: center;
+margin-left: 16%;
+margin-top: 2%;
 }
 
+.card-title {
+  margin-top: 0px;
+  font-size: 55px;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+font-size: 34px;
+margin-left: 6%;
+margin-top: -6%;
+}
 }
