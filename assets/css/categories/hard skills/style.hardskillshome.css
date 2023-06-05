@@ -361,4 +361,11 @@ font-size: 200%;
 p{
   font-size: 220%;
 }
+.card_middle h2{
+  margin-left: 80%;
+}
+.card_middle p{
+  margin-left: 5%;
+  white-space: nowrap;
+}
 }
