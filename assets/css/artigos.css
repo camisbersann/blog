@@ -23,6 +23,7 @@ main h1{
     text-align: center;
     margin-top: 10px;
     font-size: 50px;
+    
 }
 .cadastro{
     padding-top: 20px;
@@ -51,5 +52,35 @@ main h1{
     outline: none;
     background-color: #579BB1;
 }
+#hdr{
+    height: 300px;
+}
 
-
+@media screen and (max-device-width: 900px) and (min-device-height: 400px){
+    .personal{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 15%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    main h1{
+        font-size: 490%;
+        margin-top: 10%;
+    }
+    .cadastro{
+        height: 80%;
+    }
+    h3{
+        font-size: 300%;
+    }
+    .in{
+        font-size: 300%;
+    }
+    #bt{
+        font-size: 300%;
+        display:block;
+       margin-left: 35%;
+       margin-top: 8%;
+    }
+}

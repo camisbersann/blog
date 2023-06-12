@@ -8,14 +8,14 @@
      <link rel="icon" type="image/x-icon" href="../assets/images/logoblog.png">
     <!--Importação do css da página home-->
     <link rel="stylesheet" href="../assets/css/artigos.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script src="../assets/js/artigo.js"></script>
      <!--Título do site-->
     <title>Ember Diamond</title>
 </head>
 <body>
     <header>
-        <iframe src="../layouts/header.html" frameborder="0" scrolling="no"></iframe>
+        <iframe id="hdr" src="../layouts/header.html" frameborder="0" scrolling="no"></iframe>
     </header>
 
     <main>
@@ -51,7 +51,7 @@
                         <input type="date" class="in" required>
                     </label>
 
-                    <button class="button" onclick="publicar()">Publicar</button>
+                    <button class="button" id="bt" onclick="publicar()">Publicar</button>
         </article>
 
         
