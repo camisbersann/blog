@@ -154,12 +154,15 @@ button{
 h3{
     font-family: 'Montserrat', sans-serif;
     padding-left: 0px;
+    font-size: 50px;
+    margin-left: 12%;
+    text-align: center;
     
 }
 
 .middle{
     font-family: 'Montserrat', sans-serif;
-    margin: 30px;
+    margin: 60px;
     border: 2px solid #579BB1;
     border-left: 5px solid #579BB1;
     border-radius: 5px;
@@ -167,15 +170,17 @@ h3{
     margin-top: 0;
     text-align: center;
     margin-top: 5%;
+    font-size: 20px;
 }
 
 .list{
     margin: 0px;
-    margin-left: 1%;
+    margin-left: 5%;
     margin-bottom: 10%;
     text-align: justify;
     margin-top: 5%;
     white-space: nowrap;
+    font-size: 60px;
 }
 
 h2{
@@ -183,23 +188,32 @@ h2{
     color: #333;
     text-decoration: none;
     margin-right: 20%;
+    margin-left: 16%;
 }
 
 .txt {
     font-family: 'Montserrat', sans-serif;
     margin: 20px;
     margin-top: 0;
-    padding-left: 50px;
+    padding-left: 52px;
     width: 60%;
-    margin-right: 20%;
+    margin-right: 10%;
+    margin-left: 8%;
 }
 #h22{
     font-family: 'Montserrat', sans-serif;
     color: #333;
     text-decoration: none;
+    font-size: 50px;
+    margin-left: 15%;
 }
+h1 {
+    font-size: 70px;
+}
+
 #botaoz{
-    margin: 0;
+    width: 26%;
+    font-size: 40px;
     margin-left: 35%;
 }
 }
