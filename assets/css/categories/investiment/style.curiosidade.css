@@ -461,11 +461,27 @@ a {
         /* padding-left: 15px; */
         /* padding-right: 15px; */
         /* font-family: paragrafo; */
-        font-size: 30px;
+        font-size: 40px;
     }
     .stars_avaliation .star_avaliations {
         display: contents;
         /* transition: all 0.2s; */
         /* cursor: pointer; */
+    }
+    .stars {
+        font-size: 24px;
+        margin-left: auto;
+        /* display: flex;
+        align-items: center; */
+    }
+    #posted_byP {
+        width: auto;
+        height: 70px;
+    }
+    .imagemprincipal {
+        width: auto;
+    }
+    *{
+        font-size: 40px;
     }
 }
