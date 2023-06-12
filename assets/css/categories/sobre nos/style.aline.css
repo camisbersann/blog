@@ -213,7 +213,10 @@ h1 {
 
 #buttom{
     width: 26%;
-    font-size: 35px;
+    font-size: 40px;
     margin-left: 35%;
+}
+p{
+    font-size: 40px;
 }
 }

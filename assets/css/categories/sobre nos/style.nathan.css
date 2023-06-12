@@ -129,9 +129,9 @@ button{
         height: 100%;
     }
     #fotosamuel {
-        margin-left: 0%;
+        margin-left: 8%;
         border-radius: 7%;
-        width: 90%; 
+        width: 120%; 
     }
     .image {
         text-align: center;
@@ -187,6 +187,7 @@ h2{
     text-decoration: none;
     margin-right: 20%;
     margin-left: 10%;
+    font-size: 50px;
 }
 
 .txt {
@@ -206,7 +207,13 @@ h2{
 }
 #botaoz{
     width: 26%;
-    font-size: 35px;
+    font-size: 40px;
     margin-left: 35%;
+}
+p{
+    font-size: 35px;
+}
+h1{
+    font-size: 65px;
 }
 }
