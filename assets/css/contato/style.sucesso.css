@@ -1,16 +1,16 @@
-
 /*Importação da fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-header iframe{
+header iframe {
     width: 100%;
     height: 100%;
 }
 
-footer iframe{
+footer iframe {
     width: 100%;
     height: 40vh;
 }
+
 /*corpo*/
 
 body {
@@ -21,24 +21,32 @@ body {
 }
 
 /*Importação do header pelo iframe*/
-header iframe{
+header iframe {
     width: 100%;
     height: 100%;
 }
+
 /*Importação do footer pelo iframe*/
-footer iframe{
+footer iframe {
     width: 100%;
     height: 40vh;
 }
 
 /*Estilização das tags de texto do site*/
-h1, h2, h3, h4, h5, a, li{
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+li {
     color: #333;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+
 /*Estilização do tamanho da fonte das tag p*/
-p{
+p {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -47,6 +55,7 @@ img {
     height: 100px;
     width: 100px;
 }
+
 /*estilizacao do boato*/
 button {
     margin-top: 20px;
@@ -60,6 +69,7 @@ button {
     font-family: 'Montserrat', sans-serif;
     border-radius: 5px;
 }
+
 /*estilizacao da section*/
 section {
     margin: 100px;
@@ -67,8 +77,37 @@ section {
     padding: 25px;
     font-family: 'Montserrat', sans-serif;
 }
+
 #iframe_footer {
     margin-bottom: -5px;
     width: 100%;
     height: 43vh;
+}
+
+@media screen and (max-device-width: 900px) and (min-device-height: 400px) {
+    section {
+        padding-bottom: 0;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    * {
+        font-size: 50px;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #579BB1;
+        font-size: 30px;
+        font-weight: bold;
+        color: #333;
+        border: solid #333;
+        width: auto;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 5px;
+    }
 }
