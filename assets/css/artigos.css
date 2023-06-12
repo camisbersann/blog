@@ -65,19 +65,22 @@ main h1{
         padding-bottom: 15%;
     }
     main h1{
-        font-size: 390%;
+        font-size: 490%;
         margin-top: 10%;
     }
     .cadastro{
         height: 80%;
     }
     h3{
-        font-size: 220%;
+        font-size: 300%;
     }
     .in{
-        font-size: 220%;
+        font-size: 300%;
     }
     #bt{
-        font-size: 200%;
+        font-size: 300%;
+        display:block;
+       margin-left: 35%;
+       margin-top: 8%;
     }
 }
