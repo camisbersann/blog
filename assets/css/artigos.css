@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body{
     margin: 0%;
     background-color: #F8F4EA;
@@ -40,3 +42,4 @@ main h1{
    -moz-box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
    box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
 }
+
