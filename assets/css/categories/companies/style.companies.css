@@ -466,8 +466,8 @@ a {
         margin-top: 30px;
     }
     #img_começo{
-        width: 300px;
-        height: 225px;
+        width: 100%;
+        height: 556px;
     }
     .img_comentP{
         width: 20%;
@@ -485,4 +485,34 @@ a {
         width: 20%;
         height: auto;
     }
+    .text_maincontent {
+        /* padding-left: 15px; */
+        /* padding-right: 15px; */
+        /* font-family: paragrafo; */
+        font-size: 40px;
+    }
+    .stars_avaliation .star_avaliations {
+        display: contents;
+        /* transition: all 0.2s; */
+        /* cursor: pointer; */
+    }
+    .stars {
+        font-size: 24px;
+        margin-left: auto;
+        /* display: flex;
+        align-items: center; */
+    }
+    #posted_byP {
+        width: auto;
+        height: 70px;
+    }
+    .imagemprincipal {
+        width: 100%;
+        height: 556px;
+    
+    }
+    *{
+        font-size: 40px;
+    }
+
 }

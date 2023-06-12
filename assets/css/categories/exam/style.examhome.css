@@ -382,6 +382,11 @@ main h1 {
   display: none;
 }
 *{
-  font-size: xx-large;
+  font-size: 40px;
+}
+p {
+  /* font-family: 'Montserrat', sans-serif; */
+  /* text-align: left; */
+  margin-left: 0;
 }
 }

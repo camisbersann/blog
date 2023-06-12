@@ -11,7 +11,7 @@ body{
 
 #menu{
     width: 100%;
-    height: 15v;
+    height: 300px;
 }
 
 /*Importação do footer pelo iframe*/
@@ -299,89 +299,112 @@ h1.heading {
 
 
 @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
-#ads{
+  
+  .display {
+    display: block;
+    background-color: transparent;
+    margin-left: 0;
+    margin-right: 0;
+}
+.card_top {
+  margin-top: 3vh;
   margin-left: 0;
+  margin-right: 0;
+  width: auto;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+main h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 7.4vh;
+  font-size: xx-large;
+  border-bottom: rgba(51, 51, 51, 0.7) solid 0.7vh;
+}
+.card_top img {
+  width: 100%;
+  height: 31vh;
+  margin-left: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card_middle {
+  margin-top: 3vh;
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.card_middle img {
+  width: 100%;
+  height: 31vh;
+  margin-left: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 #ad img {
+  width: 100%;
+  height: 20vh;
+}
+#ads {
+  align-items: stretch;
+  margin: auto;
+  width: auto;
+}
+#banners{
+  display: inline;
+}
+#banners #ifood {
+  display: block;
+  margin: 0;
+  width: 50%;
+  margin-bottom: 5%;
+  height: auto;
+  padding: 1.5vh;
+  border-radius: 5px;
+  margin-left: 25%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#banners #kuat {
+  display: block;
+  margin: 0;
+  width: 50%;
+  margin-bottom: 5%;
+  height: auto;
+  padding: 1.5vh;
+  border-radius: 5px;
+  margin-left: 25%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#banners #sp {
+  display: block;
+  margin: 0;
+  width: 50%;
+  margin-bottom: 5%;
+  height: auto;
+  padding: 1.5vh;
+  border-radius: 5px;
+  margin-left: 25%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#ad{
   display: none;
 }
-.display{
+*{
+  font-size: 40px;
+}
+.display1 {
+  display: flex;
+  background-color: transparent;
+  margin-left: 0;
   flex-direction: column;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
 }
-  .display1{
-    margin-left: 0;
-    flex-direction: column;
-  }
-  .card_top {
-    width: 60%;
-    margin-left: -0.5%;
-    margin-left: 7%;
-    margin-bottom: 10%;
-    margin-top: 15%;
-     }
-    .card_top img {   
-      margin-left: 10%;
-      width: 120%;
-      height: auto;
-       }  
-       .card_top h2{
-        font-size: 270%;
-       }
-      
-       
-       #banners #sp{
-        width: 60%;
-        height: 30%;
-      }
-      #banners #kuat{
-        width: 60%;
-        height: 30%;
-      }
-      #banners #ifood{
-        width: 60%;
-        height: 30%;
-      }
-      #banners{
-        text-align: center;
-      }
-      
-      
-
-.card_middle h2 {
-  margin-left: 7.4vh;
-  font-size:300%;
+p {
+  /* font-family: 'Montserrat', sans-serif; */
+  /* text-align: left; */
+  margin-left: 0;
 }
-.blue {
-  font-size: 200%;
-  width: 90%;
-}
-.card-read-more a {
-font-size: 200%;
-}
-.card-title {
-  font-size: 300%;
-}
-.card_middle img{
-  width: 220%;
-  height: 90%;
-  margin-left: 20%;
- 
-}
-.container-fostrap{
-  width: 80%;
-  margin-left: 8%;
-}
-p{
-  font-size: 220%;
-}
-.card_middle h2{
-  margin-left: 80%;
-}
-.card_middle p{
-  margin-left: 2%;
-  white-space: nowrap;
-}
-
 }
