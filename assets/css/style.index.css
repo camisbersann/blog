@@ -312,7 +312,7 @@ height: 50%;
     margin-top:0;
 }p{
   width: 90%;
-  font-size:200%;
+  font-size:300%;
 }#banners #ifood{
   width: 60%;
   height: 25%;
@@ -326,6 +326,7 @@ height: 50%;
   width: 150%;
   margin-left: 6vh;
 }.h02{
-  font-size: 350%;
+  font-size: 300%;
+  width: 150%;
 }
 }
