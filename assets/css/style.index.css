@@ -271,6 +271,10 @@ h1.heading {
     border-radius: 15px;
     transition: 0.5s;
 }
+
+.dd{
+  margin-left: -3vh;
+}
 @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
   .banner img {
     width: 100%;
@@ -294,9 +298,6 @@ margin: 0;
 .card_middle {
 width: auto;
 }
-.card_middle h2 {
-margin-left: 7.4vh;
-}
   .card_top img {
 width: 180%;
 height: 100%;
@@ -312,7 +313,7 @@ height: 50%;
     margin-top:0;
 }p{
   width: 90%;
-  font-size:200%;
+  font-size:300%;
 }#banners #ifood{
   width: 60%;
   height: 25%;
@@ -326,6 +327,17 @@ height: 50%;
   width: 150%;
   margin-left: 6vh;
 }.h02{
-  font-size: 350%;
+  font-size: 300%;
+  width: 150%;
+}
+.blue{
+  font-size: 50px;
+}
+.h2222{
+  font-size: 50px;
+  margin-left: 6vh;
+}
+.pp{
+  margin-left: 6vh;
 }
 }
