@@ -279,6 +279,9 @@ a {
     width: 300px;
     height: 209px;
 }
+#header_{
+    height: 300px;
+}
 
 @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
 
