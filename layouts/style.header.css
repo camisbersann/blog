@@ -129,10 +129,13 @@
     }
 
     * {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     #vip {
         margin-right: 0;
+    }
+    .divv{
+        padding: 1%;
     }
 }
