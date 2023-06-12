@@ -207,4 +207,10 @@ h2{
 h1 {
     font-size: 70px;
 }
+
+#buttom{
+    width: 26%;
+    font-size: 35px;
+    margin-left: 35%;
+}
 }
