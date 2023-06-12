@@ -442,9 +442,19 @@ a {
         flex-direction: column;
         vertical-align: middle;
         align-items: center;
+        width: auto;
     }
     *{
         font-size: xx-large;
+    }
+    #break {
+        background-color: #f4f4f4;
+        height: auto;
+        margin-top: 30px;
+    }
+    #img_começo{
+        width: 100%;
+        height: 256px;
     }
     .img_comentP{
         width: 20%;
@@ -484,9 +494,12 @@ a {
         height: 70px;
     }
     .imagemprincipal {
-        width: auto;
+        width: 100%;
+        height: 556px;
+    
     }
     *{
         font-size: 40px;
     }
+
 }

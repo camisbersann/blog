@@ -432,14 +432,23 @@ a {
         -moz-box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
         box-shadow: 7px 8px 10px -2px rgba(0, 0, 0, 0.75);
         height: 100%;
-        width: 92%;
         display: flex;
         flex-direction: column;
         vertical-align: middle;
         align-items: center;
+        width: auto;
     }
     *{
         font-size: xx-large;
+    }
+    #break {
+        background-color: #f4f4f4;
+        height: auto;
+        margin-top: 30px;
+    }
+    #img_começo{
+        width: 100%;
+        height: 256px;
     }
     .img_comentP{
         width: 20%;
@@ -479,12 +488,12 @@ a {
         height: 70px;
     }
     .imagemprincipal {
-        width: auto;
+        width: 100%;
+        height: 556px;
+    
     }
     *{
         font-size: 40px;
     }
-    iframe {
-        height: 300px;
-    }
+
 }
