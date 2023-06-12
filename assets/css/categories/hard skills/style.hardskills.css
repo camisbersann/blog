@@ -424,4 +424,15 @@ a {
         width: 20%;
         height: auto;
     }
+    .text_maincontent {
+        /* padding-left: 15px; */
+        /* padding-right: 15px; */
+        /* font-family: paragrafo; */
+        font-size: 30px;
+    }
+    .stars_avaliation .star_avaliations {
+        display: contents;
+        /* transition: all 0.2s; */
+        /* cursor: pointer; */
+    }
 }
