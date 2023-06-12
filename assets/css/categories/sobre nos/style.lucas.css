@@ -185,6 +185,7 @@ h2{
     text-decoration: none;
     margin-right: 20%;
     margin-left: 10%;
+    font-size: 45px;
 }
 
 .txt {
@@ -204,7 +205,10 @@ h2{
 }
 #botaoz{
     width: 26%;
-    font-size: 35px;
+    font-size: 40px;
     margin-left: 35%;
+}
+p{
+    font-size: 40px;
 }
 }

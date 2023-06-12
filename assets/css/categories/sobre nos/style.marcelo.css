@@ -189,6 +189,7 @@ h2{
     text-decoration: none;
     margin-right: 20%;
     margin-left: 16%;
+    font-size: 45px;
 }
 
 .txt {
@@ -215,5 +216,8 @@ h1 {
     width: 26%;
     font-size: 40px;
     margin-left: 35%;
+}
+p{
+    font-size: 40px;
 }
 }
