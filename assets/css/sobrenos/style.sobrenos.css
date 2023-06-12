@@ -172,7 +172,8 @@ h2 {
     width: 100%;
 }
 #quemsomos {
-    margin-left: 30%;
+    margin-left: 21%;
+    font-size: 60px;
 }
  #cardcamila{
     display: block;
@@ -197,5 +198,13 @@ h2 {
 h2{
     margin-left: 23%;
     font-size: 55px;
+}
+
+p{
+    font-size: 45px;
+}
+
+h1{
+    font-size: 70px;
 }
 }
