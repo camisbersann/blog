@@ -21,7 +21,8 @@ h1, h2, h3, h4, a, li{
 }
 main h1{
     text-align: center;
-    padding: 20px;
+    margin-top: 10px;
+    font-size: 50px;
 }
 .cadastro{
     padding-top: 20px;
