@@ -43,4 +43,11 @@ main h1{
    -moz-box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
    box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
 }
-
+.in{
+    border: 0px;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+    background-color: #579BB1;
+}
