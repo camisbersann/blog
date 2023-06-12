@@ -35,6 +35,7 @@
 
 .menu ul {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -91,6 +92,10 @@
 #vip {
     margin-right: 20px;
    
+}
+
+.divv{
+    display: flex;
 }
 
 /* fonte */
