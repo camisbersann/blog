@@ -2,11 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+   
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <!--Icone do site-->
+     <link rel="icon" type="image/x-icon" href="../assets/images/logoblog.png">
+    <!--Importação do css da página home-->
+    <link rel="stylesheet" href="../assets/css/artigos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="../assets/js/artigo.js"></script>
+     <!--Título do site-->
+    <title>Ember Diamond</title>
 </head>
 <body>
-    
+    <header>
+        <iframe src="../layouts/header.html" frameborder="0" scrolling="no"></iframe>
+    </header>
+
+    <main>
+        <h1>Publique seu artigo</h1>
+
+        <article>
+            <section class="cadastro">
+                <form action="sucessoextra.html">
+                    <div class="personal">
+                        <!--Área de texto com nome-->
+                    <label>
+                        <h3>Título:</h3>
+                        <input type="text" class="in" required>
+                    </label>
+
+                    <label>
+                        <h3>Resumo:</h3>
+                        <input type="text" class="in" required>
+                    </label>
+
+                    <label>
+                        <h3>Categoria:</h3>
+                        <input type="text" class="in" required>
+                    </label>
+
+                    <label>
+                        <h3>Autor:</h3>
+                        <input type="text" class="in" required>
+                    </label>
+
+                    <label>
+                        <h3 class="tt">Data de Publicação</h3>
+                        <input type="date" class="in" required>
+                    </label>
+
+                    <button class="button" onclick="publicar()">Publicar</button>
+        </article>
+
+        
+    </main>
+
+    <footer> 
+        <iframe id="footer" src="../layouts/footer.html" frameborder="0" scrolling="no"></iframe> 
+    </footer>
 </body>
 </html>
