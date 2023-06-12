@@ -131,4 +131,14 @@
         font-size: 35px;
     }
 
- 
+    #vip {
+        margin-right: 0;
+    }
+    .divv{
+        padding: 1%;
+    }
+    .bar_menu .menu i {
+        color: #fff;
+        font-size: 30px;
+    }
+}
