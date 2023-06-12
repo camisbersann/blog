@@ -23,7 +23,7 @@ body {
 /*Importação do header pelo iframe*/
 header iframe{
     width: 100%;
-    height: 100%;
+    height: 300px;
 }
 /*Importação do footer pelo iframe*/
 footer iframe{
