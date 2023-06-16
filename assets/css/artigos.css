@@ -27,10 +27,13 @@ main h1{
 }
 .cadastro{
     padding-top: 20px;
-    height: 125vh;
     text-align: center;
     background-color: transparent;
 
+}
+
+.internCard{
+    padding: 10px;
 }
 .personal{
     background-color: #579BB1;
@@ -53,7 +56,21 @@ main h1{
     background-color: #579BB1;
 }
 #hdr{
-    height: 300px;
+    margin:0
+}
+
+
+.itemCard{
+    background-color: #579BB1;
+    border: 2px solid #579BB1;
+    border-radius: 7px;
+    margin: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
+    -moz-box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
+    box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
 }
 
 @media screen and (max-device-width: 900px) and (min-device-height: 400px){
@@ -82,5 +99,8 @@ main h1{
         display:block;
        margin-left: 35%;
        margin-top: 8%;
+    }
+    #hdr {
+        height: 300px !important;
     }
 }
