@@ -13,7 +13,7 @@ function addItem() {
 
     if (titulo == "" || resumo == "" || categoria == "" || autor == "" || data == "") {
         console.log("entrou");
-        document.getElementById("result1").innerHTML = "erro";
+        document.getElementById("result1").innerHTML = "Preencha todos os campos";
     }
     else {
         document.getElementById("result1").innerHTML = "";
@@ -39,12 +39,16 @@ function atualizaTela() {
         msg += `
        <div class = "itemCard">
        <div class = "internCard">
+       <div>
        <p class = teste> Titulo: ${item[0]} </p> 
        <p class = teste> Resumo: ${item[1]} </p>
        <p class = teste> Categoria: ${item[2]} </p> 
        <p class = teste> Autor: ${item[3]} </p>
-       <p class = teste> Data: ${item[4].split("-").reverse('').join('/')} </p> 
-       <button class= "button" id="bt" onclick="remover(${i})"> Remover </button>
+       <p class = teste> Data: ${item[4].split("-").reverse('').join('/')} </p>
+       </div>
+       <div>
+       <button class= "button" id="bt1" onclick="remover(${i})"><img id="imgg" src="../../../Downloads/lata-de-lixo.png" alt=""> </button>
+       </div>
        </div>
        </div>
         `
