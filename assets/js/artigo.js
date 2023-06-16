@@ -9,6 +9,18 @@ function addItem() {
     var autor = document.getElementById("inp4").value;
     var data = document.getElementById("inp5").value;
 
+    const dataNow = new Date();
+    const dataFormatada = Date(data);
+
+    if(dataFormatada < dataNow){
+        alert("erro fdp");
+        return;
+    }
+
+    console.log("Data Input: ", dataFormatada);
+    console.log("Data Agora: ", dataNow);
+
+    
     noticia = [titulo, resumo, categoria, autor, data];
 
     if (titulo == "" || resumo == "" || categoria == "" || autor == "" || data == "") {
