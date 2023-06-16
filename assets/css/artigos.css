@@ -27,10 +27,17 @@ main h1{
 }
 .cadastro{
     padding-top: 20px;
-    height: 125vh;
     text-align: center;
     background-color: transparent;
 
+}
+
+.internCard {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-around;
 }
 .personal{
     background-color: #579BB1;
@@ -53,7 +60,47 @@ main h1{
     background-color: #579BB1;
 }
 #hdr{
-    height: 300px;
+    margin:0
+}
+
+#result1{
+    font-size: 30px;
+    color: rgb(161, 14, 14);
+}
+
+.itemCard {
+    background-color: #579BB1;
+    border: 2px solid #579BB1;
+    border-radius: 7px;
+    margin: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
+    -moz-box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
+    box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
+}
+
+.button{
+    text-decoration: none;
+}
+
+#imgg{
+    background-color: #579BB1;
+    width: 64px;
+    height: 64px;
+}
+#bt1{
+    font-size: 300%;
+    display:block;
+   margin-left: 35%;
+   margin-top: 8%;
+   background-color: #579BB1;
+   border: none;
+   
+}
+p{
+    font-size: 20px;
 }
 
 @media screen and (max-device-width: 900px) and (min-device-height: 400px){
@@ -77,10 +124,45 @@ main h1{
     .in{
         font-size: 300%;
     }
-    #bt{
+    #bt1{
         font-size: 300%;
         display:block;
        margin-left: 35%;
        margin-top: 8%;
+       background-color: #579BB1;
+       border: none;
+       
+    }
+    #hdr {
+        height: 300px !important;
+    }
+    #result {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
+    .itemCard {
+        background-color: #579BB1;
+        border: 2px solid #579BB1;
+        border-radius: 7px;
+        margin: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        margin-left: 0;
+        box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
+        -moz-box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
+        box-shadow: 11px 7px 21px 4px rgba(0,0,0,0.8);
+    }
+    p {
+        font-size: 39px;
+    }
+    .internCard {
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        justify-content: space-around;
     }
 }
