@@ -170,4 +170,7 @@ p{
         border-radius: 10%;
         width: 25%;
     }
+    #result1{
+        font-size: 350%;
+    }
 }
