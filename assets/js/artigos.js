@@ -10,16 +10,18 @@ function addItem() {
     var data = document.getElementById("inp5").value;
 
     const dataNow = new Date();
-    const dataFormatada = Date(data);
+    const dataFormatada = new Date(data);
+    let dia = dataFormatada.getDate();
+
+    dataFormatada.setDate(dia+1);
+
+    console.log(dataFormatada);
+    console.log(dataNow);
 
     if(dataFormatada < dataNow){
-        alert("erro fdp");
+        document.getElementById("result1").innerHTML = "Digite uma data válida";
         return;
     }
-
-    console.log("Data Input: ", dataFormatada);
-    console.log("Data Agora: ", dataNow);
-
     
     noticia = [titulo, resumo, categoria, autor, data];
 
@@ -59,7 +61,7 @@ function atualizaTela() {
        <p class = teste> Data: ${item[4].split("-").reverse('').join('/')} </p>
        </div>
        <div>
-       <button class= "button" id="bt1" onclick="remover(${i})"><img id="imgg" src="../../../Downloads/lata-de-lixo.png" alt=""> </button>
+       <button class= "button" id="bt1" onclick="remover(${i})"><img id="imgg" src="../assets/images/lata-de-lixo.png" alt="lata de lixo"> </button>
        </div>
        </div>
        </div>
