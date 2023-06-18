@@ -1,3 +1,4 @@
+
 /*Importação da fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
@@ -166,7 +167,7 @@ main h1{
 #ad{
     margin-top: 7.4vh;
     margin-bottom: 7.4vh;
-    margin-left: 70px;
+    margin-left: 5vh;
 }
 
 /*Tamanho das imagens das propagandas*/
