@@ -64,6 +64,7 @@ function atualizaTela() {
        <button class= "button" id="bt1" onclick="remover(${i})"><img id="imgg" src="../assets/images/lata-de-lixo.png" alt="lata de lixo"> </button>
        </div>
        </div>
+       </div>
         `
     }
     document.getElementById("result").innerHTML = msg;
