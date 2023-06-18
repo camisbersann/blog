@@ -1,7 +1,8 @@
+// Variáveis
 var conteudo = [];
 var noticia = [];
 
-
+//Função para adicionar itens
 function addItem() {
     var titulo = document.getElementById("inp1").value;
     var resumo = document.getElementById("inp2").value;
@@ -9,6 +10,7 @@ function addItem() {
     var autor = document.getElementById("inp4").value;
     var data = document.getElementById("inp5").value;
 
+    //Verificação das datas
     const dataNow = new Date();
     const dataFormatada = new Date(data);
     let dia = dataFormatada.getDate();
@@ -25,6 +27,7 @@ function addItem() {
     
     noticia = [titulo, resumo, categoria, autor, data];
 
+    //Condicional para verificar se todos os campos estão preenchidos
     if (titulo == "" || resumo == "" || categoria == "" || autor == "" || data == "") {
         console.log("entrou");
         document.getElementById("result1").innerHTML = "Preencha todos os campos";
@@ -46,6 +49,7 @@ function addItem() {
     }
 }
 
+ //Função para a exibição do conteúdo na tela
 function atualizaTela() {
     var msg = "";
     for (let i = 0; i < conteudo.length; i++) {
@@ -70,7 +74,7 @@ function atualizaTela() {
     document.getElementById("result").innerHTML = msg;
 }
 
-
+//Função para apagar o artigo desejado
 function remover(index) {
     conteudo.splice(index, 1);
     atualizaTela();
