@@ -113,6 +113,7 @@ main h1{
     margin: 3vh;
     margin-top: 7.4vh;
     width: 33%;
+    margin-left: 60vh;
 }
 /*Estilização da imagem dos cards do meio do site*/
 .card_middle img{
@@ -144,6 +145,7 @@ main h1{
 #ad{
     margin-top: 7.4vh;
     margin-bottom: 7.4vh;
+    margin-left: 5vh;
 }
 /*Tamanho das imagens das propagandas*/
 #ad img{
