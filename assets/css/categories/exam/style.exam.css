@@ -333,7 +333,7 @@ a {
 }
 
 
-
+/* Tornar o site responsivo*/
 @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
 
     #header_ {
